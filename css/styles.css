@@ -72,7 +72,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
+    
 }
 
 .header-logo {
@@ -159,9 +159,9 @@ a {
    font-size: 56px;
    line-height: 1.07;
    letter-spacing: 0.02em;
-   text-align: center;
    color: #fff;
-   max-width: 496px
+   max-width: 496px;
+   text-align: center;
 }
 
 .button-section-one {
@@ -179,6 +179,19 @@ a {
    background-color: #4d5ae5;
    border-radius: 4px;
    cursor: pointer;
+   padding: 16px 32px;
+   margin-top: 48px;
+   margin-right: 636px;
+   margin-top: 185px;
+   margin-left: 635px;
+}
+
+.button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
 }
 
 .button-section-one:hover,
@@ -198,8 +211,19 @@ a {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 
+}
+
+.list-section-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .section-two {
@@ -218,7 +242,7 @@ a {
 .text-list-section-two {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    
 
 }
 
@@ -235,6 +259,7 @@ a {
     text-transform: capitalize;
     color:  #2e2f42;
     margin-bottom: 72px;
+    text-align: center; 
 }
 
 .list-section-three {
@@ -244,13 +269,20 @@ a {
 }
 
 
-.text-list-section-three,
-.text-list-section-four {
+.text-list-section-three {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center; 
+}
+
+.text-list-section-four {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: left; 
 }
 
 .name-position {
@@ -291,6 +323,7 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 
