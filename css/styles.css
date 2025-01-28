@@ -92,6 +92,10 @@ a {
     color: #f4f4fd;
 }
 
+.footer-logo {
+    margin-bottom: 16px;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
